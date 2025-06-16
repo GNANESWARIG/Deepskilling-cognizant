@@ -5,7 +5,6 @@ public class Logger {
     private Logger() {
         System.out.println("Logger Initialized");
     }
-
     public static Logger getInstance() {
         if (instance == null) {
             instance = new Logger();
