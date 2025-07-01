@@ -1,0 +1,14 @@
+Big O Notation:
+Big O notation describes how the runtime of an algorithm grows with input size (n). It focuses on upper bounds — the worst-case scenario.
+
+Notation	Description	Example
+O(1)	-Constant time	Hash lookup
+O(log n)	-Logarithmic time	Binary Search
+O(n)	-Linear time	Linear Search
+O(n²)-	Quadratic time	Nested loops
+
+Search Operation Scenarios:
+Case	Linear Search (O(n))	Binary Search (O(log n))
+Best	O(1) – found at start	O(1) – found at middle
+Average	O(n/2) ≈ O(n)	O(log n)
+Worst	O(n) – not found	O(log n) – not found
